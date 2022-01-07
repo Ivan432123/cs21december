@@ -11,10 +11,8 @@ namespace Задача_1._8
         static void Main(string[] args)
         {
            
-            string companyName;
-            string productName;
-            string productCost;
-            string messagePart;
+            string companyName, productName, productCost, messagePart;
+            
             Console.WriteLine("Задача 1910");
             Console.WriteLine("Введите название компании: ");
             companyName = Console.ReadLine();
