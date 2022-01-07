@@ -13,7 +13,7 @@ namespace Задача_2._3
             double x = Convert.ToDouble(Console.ReadLine());
 
             double result = (x + 7);
-            Console.WriteLine(result);
+            Console.WriteLine("{0:F4}", result);
         }
     }
 }

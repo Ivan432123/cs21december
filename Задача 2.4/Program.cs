@@ -13,7 +13,7 @@ namespace Задача_2._4
             const double pi = 3.14;
             double aDeg = Convert.ToDouble(Console.ReadLine());
             double aRad = (aDeg * pi / 180);
-            Console.WriteLine(aRad);
+            Console.WriteLine("{0:F4}", aRad);
         }
     }
 }
