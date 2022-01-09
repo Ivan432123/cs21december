@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задача 1.7", "Зад�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задача 1.11", "Задача 1.11\Задача 1.11.csproj", "{C33A44F5-321E-4BE1-8CB5-6FB1E43D26C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задача 5.9", "Задача 5.9\Задача 5.9.csproj", "{E4CE9739-ED66-4F57-A4BC-385669FD74B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{C33A44F5-321E-4BE1-8CB5-6FB1E43D26C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C33A44F5-321E-4BE1-8CB5-6FB1E43D26C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C33A44F5-321E-4BE1-8CB5-6FB1E43D26C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CE9739-ED66-4F57-A4BC-385669FD74B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CE9739-ED66-4F57-A4BC-385669FD74B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CE9739-ED66-4F57-A4BC-385669FD74B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CE9739-ED66-4F57-A4BC-385669FD74B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
