@@ -21,29 +21,45 @@ namespace Задача_5._9
             Delta_X = Xb - Xa;
             Delta_Y = Yb - Ya;
 
-            // румб линия
-            r = Math.Atan(Delta_Y / Delta_X);
+            // румб линия, дирекционный угол
+            //r = Math.Atan(Delta_Y / Delta_X); //* 180 / Math.PI;
+
+            //distance = Math.Sqrt(Math.Pow(Xb - Xa, 2) + Math.Pow(Yb - Ya, 2));
 
             // связь между румбами и дирекционными углами
             if (Delta_X >= 0 && Delta_Y > 0)
             {
+                
+                r = Math.Atan(Delta_Y / Delta_X) * 180 / Math.PI;
                 angle = r;
+                distance = Math.Sqrt(Math.Pow(Xb - Xa, 2) + Math.Pow(Yb - Ya, 2));
+                Console.WriteLine("Горизонтальное проложение {0:F4}\nДирекционный угол {1:F4}", distance, angle);
             }
             if (Delta_X < 0 && Delta_Y >= 0)
             {
-                angle = 180 - r;
+                r = Math.Atan(Delta_Y / Delta_X) * 180 / Math.PI;
+                angle = 180 -(-r);
+                distance = Math.Sqrt(Math.Pow(Xb - Xa, 2) + Math.Pow(Yb - Ya, 2));
+                Console.WriteLine("Горизонтальное проложение {0:F4}\nДирекционный угол {1:F4}", distance, angle);
             }
             if (Delta_X <= 0 && Delta_Y < 0)
             {
+                r = Math.Atan(Delta_Y / Delta_X) * 180 / Math.PI;
                 angle = 180 + r;
+                distance = Math.Sqrt(Math.Pow(Xb - Xa, 2) + Math.Pow(Yb - Ya, 2));
+                Console.WriteLine("Горизонтальное проложение {0:F4}\nДирекционный угол {1:F4}", distance, angle);
             }
             if(Delta_X > 0 && Delta_Y <= 0) 
             {
-                angle = 360 - r;
+                r = Math.Atan(Delta_Y / Delta_X) * 180 / Math.PI;
+                angle = 360 - (-r);
+                distance = Math.Sqrt(Math.Pow(Xb - Xa, 2) + Math.Pow(Yb - Ya, 2));
+                Console.WriteLine("Горизонтальное проложение {0:F4}\nДирекционный угол {1:F4}", distance, angle);
             }
-
-            distance = Math.Sqrt((Xb - Xa) + Math.Pow(2, 2) + (Yb - Ya) + Math.Pow(2, 2));
-            Console.WriteLine("Горизонтальное проложение {0:F4}\nДирекционный угол {1:F4}", distance, r);
+            
+            //Горизонтальное проложение(расстояние между точками)
+            //distance = Math.Sqrt(Math.Pow(Xb-Xa,2)+Math.Pow(Yb-Ya,2));
+            //Console.WriteLine("Горизонтальное проложение {0:F4}\nДирекционный угол {1:F4}", distance, angle);
         }
     }
 }
