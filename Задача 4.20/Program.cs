@@ -16,9 +16,11 @@ namespace Задача_4._20
             int Yn1 = Convert.ToInt32(Console.ReadLine());
             int Xn2 = Convert.ToInt32(Console.ReadLine());
             int Yn2 = Convert.ToInt32(Console.ReadLine());
+            
             if (Xt < 0)
             {
                 Console.WriteLine("Координата X должна быть неотрицательной");
+                
             }
             if ((Xt - Xn1) / (Xn2 - Xn1) == (Yt - Yn1) / (Yn2 - Yn1))
             {

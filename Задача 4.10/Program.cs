@@ -31,7 +31,8 @@ namespace Задача_4._10
 
             Console.WriteLine("Требуется уплатить {0} рублей {1:F2} копеек", ruble_differenceNds, cop_diff);
 
-            Console.WriteLine("Позднее округление\nНДС вход {0:F6} рублей\nНДС выход {1:F6} рублей\nТребуется уплатить {2:F6}, после округления {3} рублей {4:F2} копеек", buyNds, sellNds, differenceNds, ruble_differenceNds, cop_diff);
+            Console.WriteLine("Позднее округление\nНДС вход {0:F6} рублей\nНДС выход {1:F6} рублей\nТребуется уплатить {2:F6}, после округления" + 
+                "{3} рублей {4:F2} копеек", buyNds, sellNds, differenceNds, ruble_differenceNds, cop_diff);
             
 
         }
