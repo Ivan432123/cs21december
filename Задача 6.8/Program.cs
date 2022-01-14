@@ -11,7 +11,7 @@ namespace Задача_6._8
         static void Main(string[] args)
         {
             int x, i; 
-            x = 2;
+            x = Convert.ToInt32(Console.ReadLine());
            
             while (x <= 32)
             {
