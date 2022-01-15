@@ -15,7 +15,7 @@ namespace Задача_6._8
            
             while (x <= 32)
             {
-                Console.WriteLine(x);
+                Console.Write("{0} ", x);
                 x = x + 3;
             }
             Console.WriteLine();
@@ -26,9 +26,19 @@ namespace Задача_6._8
             while (i <= x)
             {
 
-                Console.WriteLine(i);
+                Console.Write("{0} ", i);
                 i = i + 4;
             }
+            Console.WriteLine();
+
+            while(x <= 43)
+            {
+                Console.Write("{0} ", x);
+                x = x + 3;
+            }
+            Console.WriteLine();
+
+
             
             
             {

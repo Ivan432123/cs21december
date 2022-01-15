@@ -11,11 +11,11 @@ namespace Задача_6._2
         static void Main(string[] args)
         {
             int limit, A;
-            limit = 10;
+            limit = 0;
             A = int.Parse(Console.ReadLine());
-            while(A <= limit)
+            while(limit<=10)
              {
-                
+                A += 1;
                  Console.WriteLine(A + "\n---");
                  A++;
              }

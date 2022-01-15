@@ -14,30 +14,36 @@ namespace Задача_6._6
 
             x = int.Parse(Console.ReadLine());
 
-            if (x <= 2)
+                if (x <= 2)
                 while (x <= 32)
+                {
+                    
+                    x += 3;
+                    Console.Write("{0} ", x);
+                    
+                }
+                if (x >= 4)
+                while (x <= 34)
+                {
+                    
+                    Console.Write("{0} ", x);
+                    x += 3;
+                }
+
+            { 
+                if (x < 0)
+                while (x <= 24)
                 {
 
                     Console.Write("{0} ", x);
                     x += 3;
                 }
-            if (x <= 4)
-                while (x <= 34)
-                {
-                    Console.Write("{0} ", x);
-                    x += 3;
-                }
-            if (x < 0)
-            {
-                while (x <= 24)
-                {
-                    Console.Write("{0} ", x);
-                    x += 3;
-                }
-            if (x >= 1000)
-            {
+
+
+                if (x >= 1000)
                 while (x <= 1030)
                 {
+                    
                     Console.Write("{0} ", x);
                     x += 3;
                 }
@@ -48,4 +54,4 @@ namespace Задача_6._6
             }
         }
     }
-}
+
