@@ -15,7 +15,7 @@ namespace Задача_6._3
             x = Console.ReadLine();
             while (limit < 7)
             {
-                Console.WriteLine("{0}", x);
+                Console.Write("{0}", x); 
                 limit++;
             }
         
