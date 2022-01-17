@@ -10,15 +10,26 @@ namespace Задача_6._2
     {
         static void Main(string[] args)
         {
-            int limit, A;
-            limit = 0;
+            int  A;
+            
             A = int.Parse(Console.ReadLine());
-            while(limit<=10)
+            while(A <= 17 && A >=5)
              {
-                A += 1;
+                
                  Console.WriteLine(A + "\n---");
-                 A++;
+                 A+=1;
              }
+            Console.WriteLine();
+            while(A <= 4)
+            {
+                Console.WriteLine(A + "\n---");
+                A += 1;
+            }
+            while(A <= 704 && A >= 695)
+            {
+                Console.WriteLine(A + "\n---");
+                A += 1;
+            }
             
             
             /*Console.WriteLine("---");

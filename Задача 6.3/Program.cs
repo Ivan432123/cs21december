@@ -13,11 +13,14 @@ namespace Задача_6._3
             string x;
             int limit = 0;
             x = Console.ReadLine();
+            Console.Write("\"");
             while (limit < 7)
             {
                 Console.Write("{0}", x); 
                 limit++;
             }
+            Console.WriteLine("\"");
+            
         
             
 

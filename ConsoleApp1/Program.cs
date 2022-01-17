@@ -10,12 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-           
-                
+            int gramm_0, gramm_2;
+            gramm_0 = 453;
+            gramm_2 = 9060;
+            while (gramm_2 >= gramm_0)
+            {
+                Console.WriteLine("{0}", gramm_0);
+                gramm_0 += 453;
+            }
 
 
 
-                }
+        }
             }
         }
     
