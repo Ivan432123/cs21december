@@ -10,19 +10,25 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int gramm_0, gramm_2;
-            gramm_0 = 453;
-            gramm_2 = 9060;
-            while (gramm_2 >= gramm_0)
-            {
-                Console.WriteLine("{0}", gramm_0);
-                gramm_0 += 453;
+            int limit, x;
+            x = 1;
+            limit = int.Parse(Console.ReadLine());
+            
+            
+                while (limit >= x)
+
+                {
+                    if(x % 2 == 0) // проверка числа на чётность
+                    Console.Write("{0} ", x);
+                    x++;
+
+                
+
+                
             }
-
-
-
+            
         }
-            }
-        }
+    }
+}
     
 
