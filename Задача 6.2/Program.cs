@@ -10,28 +10,18 @@ namespace Задача_6._2
     {
         static void Main(string[] args)
         {
-            int  A;
-            
+            int A, B;
+
             A = int.Parse(Console.ReadLine());
-            while(A <= 17 && A >=5)
-             {
-                
-                 Console.WriteLine(A + "\n---");
-                 A+=1;
-             }
-            Console.WriteLine();
-            while(A <= 4)
+            B = A + 10;
+            while (A < B)
             {
+
                 Console.WriteLine(A + "\n---");
                 A += 1;
             }
-            while(A <= 704 && A >= 695)
-            {
-                Console.WriteLine(A + "\n---");
-                A += 1;
-            }
-            
-            
+
+
             /*Console.WriteLine("---");
             A++;
             Console.WriteLine(A + "\n---");
@@ -52,8 +42,8 @@ namespace Задача_6._2
             A++;
             Console.WriteLine(A + "\n---");
             A++;*/
-            
-            
+
+
         }
     }
 }

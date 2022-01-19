@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Задача_6._14
+namespace Задача_6._15
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -18,16 +18,13 @@ namespace Задача_6._14
                 Console.WriteLine("Значение А должно быть не больше значения В");
                 return;
             }
-            
-            while (a <= b)
+            Console.Write("{ ");
+            while(b >= a)
             {
-                Console.Write("{0};", a);
-                a++;
+                Console.Write("{0} ", b);
+                b--;
             }
-
-           
-            
-            
+            Console.WriteLine("}");
         }
     }
 }

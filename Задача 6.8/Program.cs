@@ -10,10 +10,10 @@ namespace Задача_6._8
     {
         static void Main(string[] args)
         {
-            int x, i; 
+            int x, y; 
             x = Convert.ToInt32(Console.ReadLine());
-           
-            while (x <= 32 && x >= 2)
+            y = x + 30;
+            while (x <= y)
             {
                 Console.Write("{0} ", x);
                 x = x + 3;

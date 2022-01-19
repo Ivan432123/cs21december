@@ -10,25 +10,25 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int limit, x;
-            x = 1;
-            limit = int.Parse(Console.ReadLine());
+            int A, B;
             
-            
-                while (limit >= x)
+            A = int.Parse(Console.ReadLine());
+            B = A + 10;
+            while (A < B)
+            {
 
-                {
-                    if(x % 2 == 0) // проверка числа на чётность
-                    Console.Write("{0} ", x);
-                    x++;
-
-                
-
-                
+                Console.WriteLine(A + "\n---");
+                A += 1;
             }
+            
+
+
+
+
+        }
             
         }
     }
-}
+
     
 

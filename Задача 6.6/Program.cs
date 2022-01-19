@@ -10,12 +10,12 @@ namespace Задача_6._6
     {
         static void Main(string[] args)
         {
-            int x;
+            int x, y;
 
             x = int.Parse(Console.ReadLine());
-            
+            y = x + 30;
             // ввод (x) = 2
-                while (x <= 32 && x >= 2)
+                while (x <= y)
                 {
                     
                     
@@ -23,7 +23,7 @@ namespace Задача_6._6
                 x += 3;
             }
 
-            // ввод (x) = 4   
+            /* ввод (x) = 4   
                 while (x <= 34 && x >= 4)
                 {
                     
@@ -47,7 +47,7 @@ namespace Задача_6._6
                     
                     Console.Write("{0} ", x);
                     x += 3;
-                }
+                }*/
 
 
 
