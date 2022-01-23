@@ -13,21 +13,17 @@ namespace Задача_6._19
             int x, y, z;
             y = 10;
             z = 20;
+           
+            
+            
+
+            while (y <= z)
+            {
+                Console.WriteLine(y);
+                y++;
+            }
             x = int.Parse(Console.ReadLine());
-            
-            
-
-            if (x == 10)
-            {
-                Console.WriteLine("Найдено");
-            }
-
-            if (x == 15)
-            {
-                Console.WriteLine("Найдено");
-            }
-
-            if (x == 20)
+            while (x >= y && x <= z)
             {
                 Console.WriteLine("Найдено");
             }

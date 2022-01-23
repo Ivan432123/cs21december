@@ -18,7 +18,7 @@ namespace Задача_6._2
             {
 
                 Console.WriteLine(A + "\n---");
-                A += 1;
+                A ++;
             }
 
 

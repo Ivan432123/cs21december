@@ -10,17 +10,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int A, B;
-            
-            A = int.Parse(Console.ReadLine());
-            B = A + 10;
-            while (A < B)
+            int x, y, z;
+            y = 10;
+            z = 20;
+            while (y <= z)
             {
-
-                Console.WriteLine(A + "\n---");
-                A += 1;
+                Console.WriteLine(y);
+                y++;
             }
-            
+            x = int.Parse(Console.ReadLine());
+            if (x == 10)
+            {
+                Console.WriteLine("{0}      Найдено", y);
+            }
+
 
 
 

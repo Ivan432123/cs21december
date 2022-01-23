@@ -13,6 +13,12 @@ namespace Задача_6._7
             int limit, x;
             x = 0;
             limit = int.Parse(Console.ReadLine());
+            if (limit < 0)
+            {
+                Console.WriteLine("Введенное значение должно быть неотрицательным");
+                return;
+            }
+            
             while (limit > x)
             {
                 Console.Write("{0} ", x);

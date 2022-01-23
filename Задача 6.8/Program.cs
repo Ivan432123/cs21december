@@ -10,40 +10,31 @@ namespace Задача_6._8
     {
         static void Main(string[] args)
         {
-            int x, y; 
+            int x, y, z; 
             x = Convert.ToInt32(Console.ReadLine());
+
             y = x + 30;
+            
             while (x <= y)
+                
             {
+                
                 Console.Write("{0} ", x);
-                x = x + 3;
+                x += 3;
             }
-            Console.WriteLine();
 
-            x = 2;
-
-            i = x - 40;
-            while (i <= x)
+            z = x - 40;
+            while (x > z)
             {
-
-                Console.Write("{0} ", i);
-                i = i + 4;
+                
+                Console.Write("{0} ", x);
+                
+                x -= 4;
             }
 
             
-            while(x <= 43 && x > 32)
-            {
-                Console.Write("{0} ", x);
-                x = x + 3;
-            }
-            Console.WriteLine();
-            x = 13;
-            i = x - 30;
-            while ( i <= x)
-            {
-                Console.Write("{0}", i);
-                i = i + 4;
-            }
+          
+           
 
             
             
