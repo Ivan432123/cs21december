@@ -21,15 +21,17 @@ namespace Задача_6._8
                 
                 Console.Write("{0} ", x);
                 x += 3;
+                
             }
-
-            z = x - 40;
-            while (x > z)
+            Console.WriteLine("\n");
+            x = Convert.ToInt32(Console.ReadLine());
+            y = x - 40;
+            while (x >= y)
             {
                 
-                Console.Write("{0} ", x);
+                Console.Write("{0} ", y);
                 
-                x -= 4;
+                y += 4;
             }
 
             
