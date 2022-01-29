@@ -10,22 +10,64 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int x, y, z;
-            y = 10;
-            z = 20;
-            while (y <= z)
+            int limit, x, y;
+            x = 0;
+            y = 1;
+            limit = int.Parse(Console.ReadLine());
+            if (limit < 0)
             {
-                Console.WriteLine(y);
-                y++;
+                Console.WriteLine("Введенное значение должно быть неотрицательным");
+                return;
             }
-            x = int.Parse(Console.ReadLine());
-            if (x == 10)
+            while (limit > x)
             {
-                Console.WriteLine("{0}      Найдено", y);
+                Console.Write("{0} ", x);
+                x = x + y;
+                y = y + 1;
             }
 
-
-
+            
+            /*Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1; 
+            
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);
+            x = x + y;
+            y = y + 1;
+            Console.Write("{0} ", x);*/
 
 
         }

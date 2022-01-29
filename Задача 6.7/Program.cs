@@ -10,19 +10,20 @@ namespace Задача_6._7
     {
         static void Main(string[] args)
         {
-            int limit, x;
+            int limit, x, y;
             x = 0;
+            y = 1;
             limit = int.Parse(Console.ReadLine());
             if (limit < 0)
             {
                 Console.WriteLine("Введенное значение должно быть неотрицательным");
                 return;
             }
-            
             while (limit > x)
             {
                 Console.Write("{0} ", x);
-                x++;
+                x = x + y;
+                y = y + 1;
             }
         }
     }

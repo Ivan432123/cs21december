@@ -10,37 +10,39 @@ namespace Задача_6._8
     {
         static void Main(string[] args)
         {
-            int x, y, z; 
-            x = Convert.ToInt32(Console.ReadLine());
-            
-                y = x + 30;
-            
+            int x, y, z;
+            z = Convert.ToInt32(Console.ReadLine());
 
-                while (x <= y)
-                
+            y = z + 30;
+
+            x = z;
+            while (x <= y)
+                 
             {
                 
-                        Console.Write("{0} ", x);
+                Console.Write("{0} ", x);
+                
                 x += 3;
                 
             }
-                Console.WriteLine("\n");
-                x = 2;
-                y = x - 40;
-                while (x >= y)
-                {
-                   
-                        Console.Write("{0} ", y);
-
-                    y += 4;
-                }
-            
-            
-          
-           
+            Console.WriteLine("\n");
 
             
-            
+            y = z - 40;
+            while (z >= y)
+            {
+
+                Console.Write("{0} ", y);
+
+                y += 4;
+            }
+
+
+
+
+
+
+
             {
 
             }
