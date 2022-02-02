@@ -14,28 +14,30 @@ namespace Задача_6._16
             a = int.Parse(Console.ReadLine());
             b = int.Parse(Console.ReadLine());
             if(a < b)
-            {
+            { 
                 Console.WriteLine("От А до В");
+                while (a <= b)
+                {
+                    Console.Write("{0} ", a);
+                    a++;
+                }
             }
-            if(a > b)
+            else if (a < b)
             {
                 Console.WriteLine("От В до А");
+                while (a >= b)
+                {
+                    Console.Write("{0} ", b);
+                    b++;
+                }
             }
             if (a == b)
             {
                 Console.WriteLine("Границы равны \n{0}", a);
                 return;
             }
-            while(a <= b)
-            {
-                Console.Write("{0} ", a);
-                a++;
-            }
-            while(a >= b)
-            {
-                Console.Write("{0} ", b);
-                b++;
-            }
+            
+            
             
 
         }

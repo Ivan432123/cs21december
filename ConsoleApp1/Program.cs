@@ -10,70 +10,71 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int limit, x, y;
-            x = 0;
-            y = 1;
-            limit = int.Parse(Console.ReadLine());
-            if (limit < 0)
-            {
-                Console.WriteLine("Введенное значение должно быть неотрицательным");
-                return;
-            }
-            while (limit > x)
-            {
-                Console.Write("{0} ", x);
-                x = x + y;
-                y = y + 1;
-            }
 
+            int a, b;
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
             
-            /*Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1; 
-            
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);
-            x = x + y;
-            y = y + 1;
-            Console.Write("{0} ", x);*/
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+            Console.WriteLine("{0} {1}", b, a);
+            a--;
+            b++;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
-            
-        }
+
+    }
     }
 
-    
+
+
 
