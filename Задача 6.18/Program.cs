@@ -10,40 +10,44 @@ namespace Задача_6._18
     {
         static void Main(string[] args)
         {
-            int a, b, c, d;
+            int a, b, c, d, str_1, str_2;
             a = int.Parse(Console.ReadLine());
             b = int.Parse(Console.ReadLine());
             c = b + 1;
             d = b - 1;
 
-            
-
-
-
-
 
             if (a < c)
+
             {
+                str_1 = (b - a) + 1;
+                c = b + 1;
                 while (a < c)
                 {
-
-
                     Console.WriteLine("{0} {1}", a, b);
                     a++;
                     b--;
 
                 }
+                Console.WriteLine("Всего строк {0}", str_1);
+
             }
 
-                else
+
+            else if (a > d)
+            {
+                str_2 = (a - b) + 1;
+
                 while (a > d)
                 {
 
+                    
                     Console.WriteLine("{0} {1}", b, a);
                     a--;
                     b++;
                 }
-            Console.WriteLine("Всего строк {0}", d);
+                Console.WriteLine("Всего строк {0}", str_2);
+            }
         }
     }
 }
