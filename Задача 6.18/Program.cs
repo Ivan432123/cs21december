@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace Задача_6._18
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            int a, b, c;
+            int a, b, c, d;
             a = int.Parse(Console.ReadLine());
             b = int.Parse(Console.ReadLine());
             c = b + 1;
+            d = b - 1;
+
+            
 
 
 
@@ -32,25 +35,16 @@ namespace Задача_6._18
                 }
             }
 
-
-
-
-
-            
-            
-            
-              else
-                while (a > b)
+                else
+                while (a > d)
                 {
 
                     Console.WriteLine("{0} {1}", b, a);
                     a--;
                     b++;
                 }
-            }
+            Console.WriteLine("Всего строк {0}", d);
         }
-        }
-            
+    }
+}
         
-    
-
