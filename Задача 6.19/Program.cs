@@ -10,83 +10,89 @@ namespace Задача_6._19
     {
         static void Main(string[] args)
         {
-            int x, y, z;
-            y = 10;
-            z = 20;
+            int x, y;
 
-            x = int.Parse(Console.ReadLine());
 
-            while (y <= z)
+
+            y = int.Parse(Console.ReadLine());
+            x = 10;
+            while (x <= 20)
             {
-                Console.WriteLine(y);
-                y++;
-                
-                if (x >= y || x <= z)
+
+
+                if (y == x)
                 {
-                    Console.Write(x);
-                    Console.WriteLine(" Найдено");
+                    Console.WriteLine("{0} Найдено", x);
                 }
+                else
+                {
+
+                    Console.WriteLine(x);
+                }
+                x++;
+
+
+
 
             }
-            
-            
-
-
-            /* if (x == 10)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 11)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 12)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 13)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 14)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 15)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 16)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 17)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 18)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 19)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");
-             }
-             if (x == 20)
-             {
-                 Console.Write(x);
-                 Console.WriteLine("Найдено");*/
-        }
         }
     }
+}
+
+
+                /* if (x == 10)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 11)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 12)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 13)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 14)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 15)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 16)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 17)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 18)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 19)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");
+                 }
+                 if (x == 20)
+                 {
+                     Console.Write(x);
+                     Console.WriteLine("Найдено");*/
+         
 

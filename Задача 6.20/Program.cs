@@ -10,29 +10,33 @@ namespace Задача_6._20
     {
         static void Main(string[] args)
         {
-            int a, b, c, y, z, k, f;
+            int a, b, c, y, z, k, f, d, m;
             a = int.Parse(Console.ReadLine());
             b = int.Parse(Console.ReadLine());
             c = int.Parse(Console.ReadLine());
             y = a + 10;
             z = b + 10;
             k = c + 10;
-            f = 10;
+            
 
-            while (a < y && b < z && c < k)
+            while (a <= y | b <= z | c <= k)
             {
                 Console.WriteLine("{0} {1} {2}", a, b, c);
                 a++;
                 b++;
                 c++;
-                if (a == f || b == f || c == f)
-                    {
-                        Console.Write("{0} {1} {2}", a, b, c);
-                        Console.WriteLine(" Найдено");
-                    }
+
+
+                if (a == 10 | b == 10 | c == 10)
+                {
+
+                    Console.WriteLine("{0} {1} {2} Найдено", a, b, c);
+
                 }
             }
-            
         }
-    }
 
+    }
+}
+        
+    
