@@ -21,22 +21,31 @@ namespace Задача_6._20
 
             while (a <= y | b <= z | c <= k)
             {
-                Console.WriteLine("{0} {1} {2}", a, b, c);
-                a++;
-                b++;
-                c++;
-
-
                 if (a == 10 | b == 10 | c == 10)
                 {
 
                     Console.WriteLine("{0} {1} {2} Найдено", a, b, c);
+                    a++;
+                    b++;
+                    c++;
+                }
+
+                else
+                {
+
+                    Console.WriteLine("{0} {1} {2}", a, b, c);
+                    a++;
+                    b++;
+                    c++;
+                }
+
+                
 
                 }
             }
         }
 
     }
-}
+
         
     
