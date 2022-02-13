@@ -10,7 +10,7 @@ namespace Задача_6._20
     {
         static void Main(string[] args)
         {
-            int a, b, c, y, z, k, f, d, m;
+            int a, b, c, y, z, k;
             a = int.Parse(Console.ReadLine());
             b = int.Parse(Console.ReadLine());
             c = int.Parse(Console.ReadLine());
@@ -19,7 +19,7 @@ namespace Задача_6._20
             k = c + 10;
             
 
-            while (a <= y | b <= z | c <= k)
+            while (a < y | b < z | c < k)
             {
                 if (a == 10 | b == 10 | c == 10)
                 {
