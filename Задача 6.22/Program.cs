@@ -11,13 +11,19 @@ namespace Задача_6._22
         static void Main(string[] args)
         {
             int n, t, x;
+            x = 0;
             n = int.Parse(Console.ReadLine());
             t = 0;
-            x = 0;
-            while(n > t)
+            if (n < 0)
+            {
+                Console.WriteLine("Значение N должно быть неотрицательным");
+            }
+
+            while (n > t)
             {
                 t++;
                 Console.Write("!", n);
+                
 
                 if (x == 5)
                 {
@@ -25,6 +31,7 @@ namespace Задача_6._22
                     Console.Write(" ");
                 }
                 x++;
+                
                 
 
             }
