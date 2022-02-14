@@ -29,6 +29,7 @@ namespace Задача_6._23
                     
 
                     Console.Write("#\n", N);
+                    
                     A++;
                     
                 }

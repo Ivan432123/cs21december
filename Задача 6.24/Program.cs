@@ -13,7 +13,7 @@ namespace Задача_6._24
             int A, B;
             A = int.Parse(Console.ReadLine());
             B = int.Parse(Console.ReadLine());
-            while(A > B | A < B)
+            while(A > B || A < B)
             {
                 Console.WriteLine("{0}___{1}", A, B);
                 A++;
