@@ -25,9 +25,9 @@ namespace Задача_6._22
                 Console.Write("!", n);
                 
 
-                if (x == 5)
+                if (x == 4)
                 {
-                    x -= 6;
+                    x = 0;
                     Console.Write(" ");
                 }
                 x++;

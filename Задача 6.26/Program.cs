@@ -19,8 +19,9 @@ namespace Задача_6._26
                 Console.WriteLine("Значение Х должно быть положительным");
             }
             
-            while (y++ <= x)
+            while (y <= x)
             {
+                y++;
                 if (x % y == 0)
                 {
                    
