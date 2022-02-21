@@ -22,27 +22,26 @@ namespace Задача_7._7
 
             b = 0;
             c = 0;
-            m = 0;
-            w--;
             while(w > b)
             {
-                Console.Write(" цикл 1 " + a, w);
+                Console.Write(a, w);
                 b++;
-               
             }
-            while(h > c)
-            {
-                Console.WriteLine(" цикл 2 " + a, h);
-                c++;
+            Console.WriteLine();
 
-                while (h > m)
-                {
-                    Console.Write(" цикл 3 " + a, m);
-                    m++;
-                }
+
+            while (h > c)
+            {
+                Console.Write(a, h);
+                c++;
             }
+            Console.WriteLine();
+
+
+        }
+            }    
+           
            
 
         }
-    }
-}
+ 

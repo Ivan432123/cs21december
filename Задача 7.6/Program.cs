@@ -12,6 +12,7 @@ namespace Задача_7._6
         {
             int w, a, b, c, d, e, f, g, h, i, y;
             w = int.Parse(Console.ReadLine());
+           
             a = 0;
             b = 0;
             c = 0;
