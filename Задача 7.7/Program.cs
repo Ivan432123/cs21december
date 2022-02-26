@@ -22,20 +22,40 @@ namespace Задача_7._7
 
             b = 0;
             c = 0;
-            while(w > b)
+            m = 0;
+            if (w < 0)
+            {
+                Console.WriteLine("Значение W быть неотрицательно!");
+                return;
+            }
+            
+
+            while(w > b && w >= h)
             {
                 Console.Write(a, w);
                 b++;
+                
+                
             }
             Console.WriteLine();
 
-
-            while (h > c)
+            while (w > c && w >= h)
             {
-                Console.Write(a, h);
+                Console.Write(a, w);
                 c++;
             }
             Console.WriteLine();
+
+            while (w > m && w >= h)
+            {
+                Console.Write(a, w);
+                m++;
+            }
+            Console.WriteLine();
+
+
+
+
 
 
         }

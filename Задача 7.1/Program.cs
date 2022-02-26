@@ -39,7 +39,7 @@ namespace Задача_7._1
                 
             }
 
-            Console.WriteLine("\n");
+            Console.WriteLine();
 
 
             while (T > m)
