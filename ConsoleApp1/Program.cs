@@ -10,52 +10,49 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            int w, h, b, c, m;
+            Console.Write("Введите символ: ");
+            string a = Console.ReadLine();
 
-            int w, a, b, c, d, e, f, g, h;
+            Console.Write("Введите ширину прямойгольника: ");
             w = int.Parse(Console.ReadLine());
-            a = 0;
+
+            Console.Write("Введите высоту прямоугольника: ");
+            h = int.Parse(Console.ReadLine());
+
             b = 0;
             c = 0;
-            d = 0;
-            e = 0;
-            f = 0;
-            g = 0;
-            h = 0;
-            while (w > a && w > b && w > c && w > d && w > e && w > f && w > g && w > h)
+            m = 0;
+            if (w < 0)
             {
-                Console.Write("0", w);
-                a++;
-                Console.WriteLine();
-
-                Console.Write("1", w);
-                b++;
-                Console.WriteLine();
-
-                Console.Write("2", w);
-                c++;
-                Console.WriteLine();
-
-                Console.Write("3", w);
-                d++;
-                Console.WriteLine();
-
-                Console.Write("4", w);
-                e++;
-                Console.WriteLine();
-
-                Console.Write("5", w);
-                f++;
-                Console.WriteLine();
-
-                Console.Write("6", w);
-                g++;
-                Console.WriteLine();
-
-                Console.Write("7", w);
-                h++;
-
-                
+                Console.WriteLine("Значение W быть неотрицательно!");
+                return;
             }
+            while (w > b && w >= h)
+            {
+                Console.Write(a, w);
+                b++;
+
+
+            }
+            Console.WriteLine();
+
+            while (w > c && w >= h)
+            {
+                Console.Write(a, w);
+                c++;
+            }
+            Console.WriteLine();
+
+            while (w > m && w >= h)
+            {
+                Console.Write(a, w);
+                m++;
+            }
+            Console.WriteLine();
+
+
+        }
 
 
 
@@ -79,7 +76,7 @@ namespace ConsoleApp1
         }
 
     }
-    }
+    
 
 
 
