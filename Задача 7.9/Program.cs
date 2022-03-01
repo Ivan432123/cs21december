@@ -14,7 +14,7 @@ namespace Задача_7._9
             string s;
             Console.Write("Введите символ ");
             s = Console.ReadLine();
-            Console.Write("Введите чило ");
+            Console.Write("Введите число ");
             h = int.Parse(Console.ReadLine());
             
             for (a = 0; a < h; a++)
