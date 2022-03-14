@@ -10,10 +10,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int num_1, num_2;
-            num_1 = Convert.ToInt16(Console.ReadLine());
-            num_2 = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine(num_1 + num_2);
+            int[][] numbers = new int[3][];
+            numbers[0] = new int[] { 1, 2 };
+            numbers[1] = new int[] { 1, 2, 3 };
+            numbers[2] = new int[] { 1, 2, 3, 4, 5 };
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                
+                for (int j = 0; j < numbers[i].Length; j++)
+                {
+                    Console.Write($"{numbers[i][j]} \t");
+                }
+                Console.WriteLine();
+            }
         }
 
 

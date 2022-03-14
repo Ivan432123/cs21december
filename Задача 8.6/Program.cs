@@ -19,25 +19,35 @@ namespace Задача_8._6
             }
 
             String[] arr = data.Split(' ');
-            int a = arr.Length;
+            int a = 0;
+            int i = 0;
 
-            if(a <= 3)
+
+            while (a < arr.Length)
             {
-                Console.Write("{0} 0\n{1} 1\n{2} 2", arr[0], arr[1], arr[2]);
-                Console.WriteLine();
+
+                while (i < a)
+                {
+
+                    Console.WriteLine("{0} {1}", arr[a], i);
+                    i++;
+                }
+                a++;
             }
+
+            // через for
+            //for (a = 0; a < arr.Length; a++)
+            //{
+            //    for (i = 0; i < a; i++)
+            //    {
+
+            //    }
+                
+            //    Console.WriteLine("{0} {1}", arr[a], i);
+            //}
             
-            if(a > 3 && a <= 5)
-            {
-                Console.Write("{0} 0\n{1} 1\n{2} 2\n{3} 3\n{4} 4", arr[0], arr[1], arr[2], arr[3], arr[4]);
-                Console.WriteLine();
-            }
-
-            if(a > 5)
-            {
-                Console.Write("{0} 0\n{1} 1\n{2} 2\n{3} 3\n{4} 4\n{5} 5\n{6} 6\n{7} 7\n{8} 8\n{9} 9\n{10} 10\n{11} 11", arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7], arr[8], arr[9], arr[10], arr[11]);
-                Console.WriteLine();
+                
             }
         }
     }
-}
+
