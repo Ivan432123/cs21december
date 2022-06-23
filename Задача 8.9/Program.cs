@@ -42,7 +42,7 @@ namespace Задача_8._9
 
             }
 
-            while (B >= E && E <= arr.Length && arr.Length > 5)
+            while (B >= E && E <= arr.Length && arr.Length > 6)
             {
                 Console.Write("{0} ", arr[E]);
                 E++;
